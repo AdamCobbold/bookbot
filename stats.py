@@ -11,3 +11,6 @@ def char_count(text):
         else:
             character_count[chara] = 1
     return character_count
+
+def sort_count(dic):
+    return sorted(dic.items(), key=lambda x:x[1], reverse=True)
